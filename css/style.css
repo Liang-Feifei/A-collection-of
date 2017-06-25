@@ -1,0 +1,79 @@
+* {
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	-ms-box-sizing: border-box;
+
+	box-sizing: border-box;
+}
+
+hr {
+
+	height: 10px;
+
+	border-top: 5px solid black;
+
+}
+
+.logo {
+
+	margin-left: 20px;
+
+	background: gold;
+
+	border: ridge gold;
+
+	border-radius: 13em/3em;
+}
+
+header {
+
+	margin-top: 30px;
+
+}
+
+h2 {
+
+	margin: 25px 10px 10px 10px;
+}
+
+h4 {
+
+	text-align: center;
+
+	font-size: 3em;
+}
+
+.modal-img {
+
+	clear: both;
+
+	display: block;
+
+	margin: auto;
+}
+
+.description {
+
+	text-align: center;
+
+	font-size: 2em;
+}
+
+.footer-img {
+
+	border: groove 1em ;
+
+	border-radius: 2em;
+}
+
+@media screen and (min-width: 430px) and (max-width: 1000px) {
+
+	footer img {
+
+	width: 100%;
+}
+
+}
